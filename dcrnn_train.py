@@ -9,7 +9,7 @@ import yaml
 from lib.utils import load_graph_data
 from model.dcrnn_supervisor import DCRNNSupervisor
 
-
+## DCRNN train script
 def main(args):
     with open(args.config_filename) as f:
         supervisor_config = yaml.load(f)
