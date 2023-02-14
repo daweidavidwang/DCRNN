@@ -3,10 +3,10 @@ base_dir: data/model
 log_level: INFO
 data:
   batch_size: 64
-  dataset_dir: /home/micrl/code/RW_traffic_sumo/DCRNN_train_data
+  dataset_dir: DCRNN_train_data
   test_batch_size: 64
   val_batch_size: 64
-  graph_pkl_filename: /home/micrl/code/RW_traffic_sumo/DCRNN_train_data/edge_list.npz
+  graph_pkl_filename: DCRNN_train_data/edge_list.npz
 
 model:
   cl_decay_steps: 2000
